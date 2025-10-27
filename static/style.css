@@ -1,0 +1,140 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0d001f;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.chat-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: linear-gradient(135deg, #ff2eb3, #7b2fff);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  font-size: 28px;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.chat-btn:hover {
+  transform: scale(1.1);
+}
+
+.chat-box {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  width: 380px;
+  height: 520px;
+  background: linear-gradient(160deg, #2d0b47, #120024);
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(255, 47, 180, 0.4);
+  overflow: hidden;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #7b2fff, #ff2eb3);
+  padding: 10px 15px;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.bot-avatar {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.close-btn {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mensagem-usuario {
+  align-self: flex-end;
+  background: #7b2fff;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 15px 15px 0 15px;
+  margin: 6px 0;
+  max-width: 80%;
+}
+
+.mensagem-bot {
+  align-self: flex-start;
+  background: #ff2eb3;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 15px 15px 15px 0;
+  margin: 6px 0;
+  max-width: 80%;
+}
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #2e0d45;
+  padding: 10px;
+  background: #1a002e;
+}
+
+#inputMsg {
+  flex: 1;
+  background: #2e0d45;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.enviar-btn {
+  background: linear-gradient(135deg, #ff2eb3, #7b2fff);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  margin-left: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.enviar-btn:hover {
+  transform: scale(1.1);
+}

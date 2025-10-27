@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assistente Jovem Programador</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- Botão flutuante -->
+  <button id="chatBtn" class="chat-btn">🤖</button>
+
+  <!-- Caixa de chat -->
+  <div id="chatBox" class="chat-box" style="display: none;">
+    <div class="chat-header">
+      <div class="header-left">
+        <img src="/static/robot.jpeg" class="bot-avatar" alt="Bot" />
+        <h3>HeyDev!</h3>
+      </div>
+      <button id="closeBtn" class="close-btn">✖</button>
+    </div>
+
+    <div id="mensagens" class="chat-body"></div>
+
+    <div class="chat-footer">
+      <input id="inputMsg" type="text" placeholder="Digite sua pergunta..." />
+      <button id="enviar" class="enviar-btn">➤</button>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
