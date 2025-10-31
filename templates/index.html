@@ -5,26 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Assistente Jovem Programador</title>
   <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" type="image/png" href="/static/robot.jpeg" />
 </head>
+
 <body>
   <!-- Botão flutuante -->
-  <button id="chatBtn" class="chat-btn">🤖</button>
+  <button id="chatBtn" class="chat-btn" aria-label="Abrir chat" role="button" title="Abrir assistente">🤖</button>
 
   <!-- Caixa de chat -->
-  <div id="chatBox" class="chat-box" style="display: none;">
+  <div id="chatBox" class="chat-box" style="display: none;" role="dialog" aria-modal="true">
+    
+    <!-- Cabeçalho -->
     <div class="chat-header">
       <div class="header-left">
-        <img src="/static/robot.jpeg" class="bot-avatar" alt="Bot" />
+        <img src="/static/robot.jpeg" class="bot-avatar" alt="Avatar do assistente virtual" />
         <h3>HeyDev!</h3>
       </div>
-      <button id="closeBtn" class="close-btn">✖</button>
+
+      <!-- Botões de controle -->
+      <div class="header-buttons">
+        <button id="botaoSom" aria-label="Ativar/Desativar som" title="Ativar/Desativar som">🔊</button>
+        <button id="closeBtn" class="close-btn" aria-label="Fechar chat" title="Fechar assistente">✖</button>
+      </div>
     </div>
 
-    <div id="mensagens" class="chat-body"></div>
+    <!-- Corpo de mensagens -->
+    <div id="mensagens" class="chat-body" aria-live="polite" aria-label="Mensagens do chat" tabindex="0"></div>
 
+    <!-- Rodapé -->
     <div class="chat-footer">
-      <input id="inputMsg" type="text" placeholder="Digite sua pergunta..." />
-      <button id="enviar" class="enviar-btn">➤</button>
+      <input
+        id="inputMsg"
+        type="text"
+        placeholder="Digite sua pergunta..."
+        aria-label="Campo para digitar a mensagem"
+      />
+      <button id="microfone" class="enviar-btn" aria-label="Falar mensagem" title="Falar mensagem">🎤</button>
+      <button id="enviar" class="enviar-btn" aria-label="Enviar mensagem" title="Enviar mensagem">➤</button>
     </div>
   </div>
 

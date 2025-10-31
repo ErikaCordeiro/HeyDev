@@ -10,8 +10,6 @@ A comissão organizadora utilizará o horário registrado pelo Forms (OneDrive) 
 
 A comissão será acionada para decidir em caso de empate.
 
-A empregabilidade é o foco do PROGRAMA, que não mede esforços de gerar oportunidade aos alunos egressos do PROGRAMA nas empresas parceiras. A ideia é colocar na vitrine os alunos com bons indicadores, para que consigam colocações em empresas pequenas, médias e grandes da área de TI.
-
 A inscrição das equipes será gratuita e a sua realização implica na aceitação dos termos deste regulamento.
 
 A organização não se responsabiliza por participações que não sejam computadas por problemas técnicos que ocorram na transmissão dos dados.
@@ -33,6 +31,8 @@ Alterações após este prazo ou que incorram em equipes fora dos limites (4 a 7
 Alunos viveram experiências imersivas no maior evento de tecnologia do estado
 
 Além disso, o evento capacita e fortalece outras habilidades importantes para formação de profissionais qualificados, como gestão do tempo, trabalho em equipe, pesquisa e desenvolvimento de soluções em equipes com pessoas alocadas remotamente, visto que o evento é realizado em formato on-line.
+
+Apreparaçãoé o foco do PROGRAMA, que não mede esforços para gerar oportunidades para que os alunos conheçam as empresas parceiras. A ideia é proporcionar uma formação de qualidade, bem como interagir em webs de orientação de mercado e de experiência na área ao longo da formação com empresas com forte atuação em desenvolvimento de sistemas, para que os alunos se preparem para buscar colocações em empresas pequenas, médias e grandes da área de TI.
 
 Araranguá, Blumenau, Biguaçu, Brusque, Caçador, Canoinhas, Chapecó, Concórdia, Criciúma, Curitibanos, Florianópolis, Fraiburgo, Jaraguá do Sul, Joaçaba, Joinville, Lages, Palhoça, Porto União, Rio do Sul, São Miguel do Oeste, Tubarão, Videira e Xanxerê.
 
@@ -84,243 +84,13 @@ Florianópolis, 27 de outubro de 2025
 
 Hackathon 2024: descubra a importância do pitch na hora de mostrar todo o potencial de negócio da solução desenvolvida
 
-Hackathon Jovem Programador 2025
-O evento denominado Hackathon Jovem Programador é promovido pelo SENAC Santa Catarina e pelo SEPROSC - Sindicado das Empresas de Informática, Processamento de Dados e Tecnologia da Informação do Estado de Santa Catarina em parceria com seus patrocinadores e entidades apoiadoras.
-O Hackathon Jovem Programador visa estimular os alunos no desenvolvimento de soluções para problemas complexos, utilizando os conhecimentos adquiridos durante o curso.
-Além disso, o evento capacita e fortalece outras habilidades importantes para formação de profissionais qualificados, como gestão do tempo, trabalho em equipe, pesquisa e desenvolvimento de soluções em equipes com pessoas alocadas remotamente, visto que o evento é realizado em formato on-line.
-A participação no evento implica na aceitação integral das regras aqui descritas, sendo imprescindível que todos os participantes leiam com atenção este documento.
-As normas foram estabelecidas com o intuito de garantir a lisura, a igualdade de condições e a condução organizada do evento.
-O Hackathon Jovem Programador é uma atividade extra-curricular do Programa Jovem Programador 2025, com a participação facultativa dos alunos regularmente matriculados.
-As inscrições das equipes devem ser realizadas com 4 a 7 integrantes, exclusivamente pelo site do evento https://www.jovemprogramador.com.br/hackathon.
-Os grupos poderão sofrer alteração de seus componentes desde que respeitando o limite mínimo e máximo determinado no item 2.
-As alterações de grupo devem ser informadas pelos mentores-anjo das unidades até 26/11/25.
-Alterações após este prazo ou que incorram em equipes fora dos limites (4 a 7 integrantes) serão avaliadas pela comissão organizadora.
-As inscrições para o Hackathon seguem o cronograma do Quadro 1.
-Quadro 1 - Cronograma de Inscrições
-
-
-
-AÇÃO
-DATA
-LOCAL
-
-
-
-
-Inscrições das equipes no Site
-19/11/2025
-https://www.jovemprogramador.com.br/hackathon
-
-
-Análise das inscrições
-27/11/2025
-Online, realizado pela comissão organizadora e pelos mentores-anjo
-
-
-
-A inscrição das equipes será gratuita e a sua realização implica na aceitação dos termos deste regulamento.
-Os termos de ciência e autorização de imagem e privacidade seguem àqueles acordados na matrícula dos alunos no Programa Jovem Programador firmado com o Senac Santa Catarina.
-O cancelamento das inscrições poderá acontecer a qualquer momento em função do descumprimento deste regulamento.
-O evento reunirá, entre os dias 29 de Novembro e 06 de dezembro de 2024 , na forma de maratona, os estudantes do programa Jovem Programador 2025 devidamente matriculados e inscritos neste Hackathon, com o objetivo de promover o desenvolvimento de soluções tecnológicas para os problemas apresentados durante o evento.
-A participação de todos acontecerá on-line na plataforma utilizada pelo Senac Santa Catarina (Microsoft Teams).
-Durante o período do evento ocorrerão períodos de interação ao vivo para abertura, oficinas, apresentações finais e premiação.
-Os encontros ao vivo seguem o cronograma apresentado no Quadro 2.
-Quadro 2 - Cronograma Geral do Hackathon Jovem Programador 2025
-
-
-
-EVENTO
-DATA
-HORÁRIO
-
-
-
-
-Abertura
-29/11/2025
-09h às 12h
-
-
-Apresentação dos problemas/desafios
-29/11/2025
-14h às 15h
-
-
-Oficina Ferramentas e Design Thinking
-29/11/2025
-15h às 16h
-
-
-Oficina Validação de Problema
-01/12/2025
-19h30 às 21h
-
-
-Oficina Modelo de Negócios / MVP
-02/12/2025
-19h30 às 21h
-
-
-Oficina Pitch
-03/12/2025
-19h30 às 21h
-
-
-"Apresentação dos classificados, Apresentação final, Resultado e Premiação"
-06/12/2025
-09h às 12h
-
-
-
-As equipes receberão mentorias de profissionais dos dias 29 de novembro a 05 de dezembro de 2025. Para isso, terão acesso à agenda de disponibilidade dos mentores para agendamento.
-O acesso à agenda e as informações complementares serão apresentadas na abertura do evento (29/11/2025).
-As propostas de solução devem ser entregues de forma parcial e evolutiva no ambiente on-line do evento de acordo com o cronograma apresentado no Quadro 3. As entregas parciais são OBRIGATÓRIAS para eligibilidade à final.
-Quadro 3 - Cronograma de Entregas
-
-
-
-ENTREGA
-DATA
-HORÁRIO
-
-
-
-
-Design Thinking e definição do problema*
-01/12/2025
-19h25
-
-
-Validação do Problema e Ideação*
-02/12/2025
-19h25
-
-
-Modelo de negócio e MVP*
-03/12/2025
-19h25
-
-
-Gravação do pitch (3 minutos) *
-04/12/2025
-22h
-
-
-Apresentação da soluão (postagem arquivos) *.
-05/12/2025
-22h
-
-
-
-*Os arquivos deverão seguir a seguinte padronização de entrega exemplo “ Time T1 - Entrega E2 ”, onde T1 é o número da equipe e E2 o número da entrega.
-É de responsabilidade do grupo certificar-se que a entrega foi postada corretamente no ambiente dentro do horário limite.
-Em caso de envio das entregas em duplicidade pelo grupo (pelo mesmo aluno ou alunos diferentes do mesmo grupo), será considerada apenas a PRIMEIRA ENTREGA .
-A comissão organizadora utilizará o horário registrado pelo Forms (OneDrive) no momento da entrega, para validação de entrega dentro do prazo.
-As propostas apresentadas pelas equipes para este evento deverão ser originais e inovadoras alinhadas ao tema.
-As soluções finais apresentadas serão avaliadas de acordo com os critérios apresentados no Quadro 4.
-Quadro 4 - Critérios de Avaliação das soluções
-
-
-
-CRITÉRIOS
-PONTUAÇÃO *
-
-
-
-
-Validação do problema – a problema foi validado pelo grupo?
-0 a 5
-
-
-Validação do MVP - Rodaram o MVP e coletaram feedback? (evidências no pitch)
-0 a 5
-
-
-Viabilidade – A solução é passível de ser desenvolvida?
-0 a 5
-
-
-Impacto da solução / Relevância – Capacidade de impactar de forma positiva a realidade do setor
-0 a 5
-
-
-Pitch - Qualidade e clareza na apresentação do projeto
-0 a 5
-
-
-Total de pontos possíveis no pitch
-25
-
-
-
-* 0 (zero) indica “não aplicado” e 5 (cinco) indica excelente
-Em caso de atraso das entregas 1, 2 e 3, as equipes serão penalizadas em 2 pontos por entrega.
-NÃO serão consideradas entregas após 23h59 do mesmo dia indicado no Quadro 3. A entregas 4 e 5 devem obedecer aos horários indicados no Quadro 3. TODAS AS ENTREGAS SÃO OBRIGATÓRIAS.
-As 10 (dez) equipes com a maior pontuação média e que tenham realizado TODAS AS ENTREGAS do item 13, serão apresentados como finalistas no dia 06 de dezembro de 2025 para a apresentação e avaliação dos jurados em transmissão ao vivo pelo Microsoft Teams e YouTube.
-A comissão será acionada para decidir em caso de empate.
-A apresentação dos finalistas respeitará o cronograma apresentado no Quadro 5.
-Quadro 5 - Cronograma de divulgação e apresentação dos classificados
-
-
-
-CLASSIFICAÇÃO
-DATA
-HORÁRIO
-
-
-
-
-Divulgação dos finalistas
-06/12/2025
-09h
-
-
-Apresentação final dos classificados
-06/12/2025
-09h30
-
-
-
-As 10 propostas finalistas serão apresentadas, por até 3 minutos , on-line para os jurados que votarão seguindo os mesmos critérios avaliados no item 15. Após o computo da pontuação as 3 equipes vencedoras serão conhecidas conforme cronograma do Quadro 6. O vencedor será o que receber a maior pontuação média geral, seguidos do 2º e 3º lugares.
-A comissão será acionada para decidir em caso de empate.
-Quadro 6 - Divulgação do resultado final
-
-
-
-CLASSIFICAÇÃO FINAL
-DATA
-HORÁRIO
-
-
-
-
-Divulgação vencedores
-06/12/2025
-Após definição dos jurados
-
-
-
-Os participantes garantem que contam com a titularidade exclusiva, livre de toda carga ou limitação, de todos os direitos de propriedade intelectual sobre todos os elementos utilizados para apresentação do projeto no evento.
-Assim, a organização não poderá ser, em nenhum caso, responsável por eventuais reclamações de terceiros, em relação às infrações de direitos de propriedade intelectual, seja industrial, moral ou de qualquer outro tipo.
-Os participantes estão cientes e autorizam aos organizadores do evento a partir de sua vinculação a este Regulamento, de forma irrevogável e gratuita, que façam uso de suas imagens e/ou seus nomes em qualquer publicidade, aviso ou comunicação que for realizada em qualquer meio escrito ou audiovisual, em qualquer territorialidade, seja nacional e/ou internacional, por tempo indeterminado e comprometem-se a assinar quaisquer documentos ou autorizações que possam ser necessárias para o uso dessas imagens e/ou nomes.
-A organização reserva-se o direito de negar a participação e/ou excluir do evento as pessoas que violem direitos de propriedade intelectual e/ou copiem conteúdos dos quais não são autorizados.
-Os participantes concordam que ao aderirem a este regulamento, estarão autorizando tacitamente à organização, o direito de utilizar os trabalhos realizados pelos candidatos como ferramenta de difusão ou propaganda, em qualquer territorialidade, seja nacional e/ou internacional, durante o período de 10 (dez) anos respeitando a Lei de Propriedade Intelectual vigente no território brasileiro.
-As dúvidas que possam surgir sobre o funcionamento e sobre este regulamento podem ser levadas ao conhecimento da organização do evento, via e-mail: contato@jovemprogramador.com.br
-A organização reserva-se o direito de recusar a participação de qualquer pessoa que não reúna os requisitos descritos neste regulamento, que não cumpra com os termos de participação ou viole o espírito do evento.
-A organização reserva-se no direito de modificar em qualquer momento o regulamento, ou mesmo sua possível anulação antes da data de início do evento, sempre que exista justa causa, comprometendo-se a comunicar o novo regulamento e as novas condições do evento ou sua anulação definitiva, se for o caso, com a suficiente antecipação e publicidade, sem que exista direito a qualquer indenização em favor dos participantes.
-A organização não se responsabiliza por participações que não sejam computadas por problemas técnicos que ocorram na transmissão dos dados.
-A organização poderá desqualificar automaticamente qualquer participante que possua comportamento inadequado ou viole direito de terceiros.
-Fica expressamente estipulado que não se estabelece, por força do presente evento e, ainda, pelo desenvolvimento por parte dos vencedores do projeto vencedor, qualquer vínculo de natureza empregatícia ou de responsabilidade, por parte dos realizadores, os participantes e, ainda, dos vencedores.
-Os participantes, Titulares, ou seu Representante Legal, consente e concorda que o SENAC Santa Catarina realize o tratamento de seus dados pessoais, envolvendo operações como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração, nos termos do art. 8º da Lei nº 13.709/2018.
-Os participantes declaram e aceitam todas as condições derivadas deste regulamento.
-A Comissão organizadora não se responsabiliza por problemas técnicos que possam inviabilizar a realização do evento, se dando o direito de cancelar o evento.
- 
-Florianópolis, 27 de outubro de 2025
-Comissão Organizadora
+Hackathon Jovem Programador 2025O evento denominado Hackathon Jovem Programador é promovido pelo SENAC Santa Catarina e pelo SEPROSC - Sindicado das Empresas de Informática, Processamento de Dados e Tecnologia da Informação do Estado de Santa Catarina em parceria com seus patrocinadores e entidades apoiadoras.O Hackathon Jovem Programador visa estimular os alunos no desenvolvimento de soluções para problemas complexos, utilizando os conhecimentos adquiridos durante o curso.Além disso, o evento capacita e fortalece outras habilidades importantes para formação de profissionais qualificados, como gestão do tempo, trabalho em equipe, pesquisa e desenvolvimento de soluções em equipes com pessoas alocadas remotamente, visto que o evento é realizado em formato on-line.A participação no evento implica na aceitação integral das regras aqui descritas, sendo imprescindível que todos os participantes leiam com atenção este documento.As normas foram estabelecidas com o intuito de garantir a lisura, a igualdade de condições e a condução organizada do evento.O Hackathon Jovem Programador é uma atividade extra-curricular do Programa Jovem Programador 2025, com a participação facultativa dos alunos regularmente matriculados.As inscrições das equipes devem ser realizadas com 4 a 7 integrantes, exclusivamente pelo site do evento https://www.jovemprogramador.com.br/hackathon.Os grupos poderão sofrer alteração de seus componentes desde que respeitando o limite mínimo e máximo determinado no item 2.As alterações de grupo devem ser informadas pelos mentores-anjo das unidades até 26/11/25.Alterações após este prazo ou que incorram em equipes fora dos limites (4 a 7 integrantes) serão avaliadas pela comissão organizadora.As inscrições para o Hackathon seguem o cronograma do Quadro 1.Quadro 1 - Cronograma de InscriçõesAÇÃODATALOCALInscrições das equipes no Site19/11/2025https://www.jovemprogramador.com.br/hackathonAnálise das inscrições27/11/2025Online, realizado pela comissão organizadora e pelos mentores-anjoA inscrição das equipes será gratuita e a sua realização implica na aceitação dos termos deste regulamento.Os termos de ciência e autorização de imagem e privacidade seguem àqueles acordados na matrícula dos alunos no Programa Jovem Programador firmado com o Senac Santa Catarina.O cancelamento das inscrições poderá acontecer a qualquer momento em função do descumprimento deste regulamento.O evento reunirá, entre os dias 29 de Novembro e 06 de dezembro de 2024 , na forma de maratona, os estudantes do programa Jovem Programador 2025 devidamente matriculados e inscritos neste Hackathon, com o objetivo de promover o desenvolvimento de soluções tecnológicas para os problemas apresentados durante o evento.A participação de todos acontecerá on-line na plataforma utilizada pelo Senac Santa Catarina (Microsoft Teams).Durante o período do evento ocorrerão períodos de interação ao vivo para abertura, oficinas, apresentações finais e premiação.Os encontros ao vivo seguem o cronograma apresentado no Quadro 2.Quadro 2 - Cronograma Geral do Hackathon Jovem Programador 2025EVENTODATAHORÁRIOAbertura29/11/202509h às 12hApresentação dos problemas/desafios29/11/202514h às 15hOficina Ferramentas e Design Thinking29/11/202515h às 16hOficina Validação de Problema01/12/202519h30 às 21hOficina Modelo de Negócios / MVP02/12/202519h30 às 21hOficina Pitch03/12/202519h30 às 21h"Apresentação dos classificados, Apresentação final, Resultado e Premiação"06/12/202509h às 12hAs equipes receberão mentorias de profissionais dos dias 29 de novembro a 05 de dezembro de 2025. Para isso, terão acesso à agenda de disponibilidade dos mentores para agendamento.O acesso à agenda e as informações complementares serão apresentadas na abertura do evento (29/11/2025).As propostas de solução devem ser entregues de forma parcial e evolutiva no ambiente on-line do evento de acordo com o cronograma apresentado no Quadro 3. As entregas parciais são OBRIGATÓRIAS para eligibilidade à final.Quadro 3 - Cronograma de EntregasENTREGADATAHORÁRIODesign Thinking e definição do problema*01/12/202519h25Validação do Problema e Ideação*02/12/202519h25Modelo de negócio e MVP*03/12/202519h25Gravação do pitch (3 minutos) *04/12/202522hApresentação da soluão (postagem arquivos) *.05/12/202522h*Os arquivos deverão seguir a seguinte padronização de entrega exemplo “ Time T1 - Entrega E2 ”, onde T1 é o número da equipe e E2 o número da entrega.É de responsabilidade do grupo certificar-se que a entrega foi postada corretamente no ambiente dentro do horário limite.Em caso de envio das entregas em duplicidade pelo grupo (pelo mesmo aluno ou alunos diferentes do mesmo grupo), será considerada apenas a PRIMEIRA ENTREGA .A comissão organizadora utilizará o horário registrado pelo Forms (OneDrive) no momento da entrega, para validação de entrega dentro do prazo.As propostas apresentadas pelas equipes para este evento deverão ser originais e inovadoras alinhadas ao tema.As soluções finais apresentadas serão avaliadas de acordo com os critérios apresentados no Quadro 4.Quadro 4 - Critérios de Avaliação das soluçõesCRITÉRIOSPONTUAÇÃO *Validação do problema – a problema foi validado pelo grupo?0 a 5Validação do MVP - Rodaram o MVP e coletaram feedback? (evidências no pitch)0 a 5Viabilidade – A solução é passível de ser desenvolvida?0 a 5Impacto da solução / Relevância – Capacidade de impactar de forma positiva a realidade do setor0 a 5Pitch - Qualidade e clareza na apresentação do projeto0 a 5Total de pontos possíveis no pitch25* 0 (zero) indica “não aplicado” e 5 (cinco) indica excelenteEm caso de atraso das entregas 1, 2 e 3, as equipes serão penalizadas em 2 pontos por entrega.NÃO serão consideradas entregas após 23h59 do mesmo dia indicado no Quadro 3. A entregas 4 e 5 devem obedecer aos horários indicados no Quadro 3. TODAS AS ENTREGAS SÃO OBRIGATÓRIAS.As 10 (dez) equipes com a maior pontuação média e que tenham realizado TODAS AS ENTREGAS do item 13, serão apresentados como finalistas no dia 06 de dezembro de 2025 para a apresentação e avaliação dos jurados em transmissão ao vivo pelo Microsoft Teams e YouTube.A comissão será acionada para decidir em caso de empate.A apresentação dos finalistas respeitará o cronograma apresentado no Quadro 5.Quadro 5 - Cronograma de divulgação e apresentação dos classificadosCLASSIFICAÇÃODATAHORÁRIODivulgação dos finalistas06/12/202509hApresentação final dos classificados06/12/202509h30As 10 propostas finalistas serão apresentadas, por até 3 minutos , on-line para os jurados que votarão seguindo os mesmos critérios avaliados no item 15. Após o computo da pontuação as 3 equipes vencedoras serão conhecidas conforme cronograma do Quadro 6. O vencedor será o que receber a maior pontuação média geral, seguidos do 2º e 3º lugares.A comissão será acionada para decidir em caso de empate.Quadro 6 - Divulgação do resultado finalCLASSIFICAÇÃO FINALDATAHORÁRIODivulgação vencedores06/12/2025Após definição dos juradosOs participantes garantem que contam com a titularidade exclusiva, livre de toda carga ou limitação, de todos os direitos de propriedade intelectual sobre todos os elementos utilizados para apresentação do projeto no evento.Assim, a organização não poderá ser, em nenhum caso, responsável por eventuais reclamações de terceiros, em relação às infrações de direitos de propriedade intelectual, seja industrial, moral ou de qualquer outro tipo.Os participantes estão cientes e autorizam aos organizadores do evento a partir de sua vinculação a este Regulamento, de forma irrevogável e gratuita, que façam uso de suas imagens e/ou seus nomes em qualquer publicidade, aviso ou comunicação que for realizada em qualquer meio escrito ou audiovisual, em qualquer territorialidade, seja nacional e/ou internacional, por tempo indeterminado e comprometem-se a assinar quaisquer documentos ou autorizações que possam ser necessárias para o uso dessas imagens e/ou nomes.A organização reserva-se o direito de negar a participação e/ou excluir do evento as pessoas que violem direitos de propriedade intelectual e/ou copiem conteúdos dos quais não são autorizados.Os participantes concordam que ao aderirem a este regulamento, estarão autorizando tacitamente à organização, o direito de utilizar os trabalhos realizados pelos candidatos como ferramenta de difusão ou propaganda, em qualquer territorialidade, seja nacional e/ou internacional, durante o período de 10 (dez) anos respeitando a Lei de Propriedade Intelectual vigente no território brasileiro.As dúvidas que possam surgir sobre o funcionamento e sobre este regulamento podem ser levadas ao conhecimento da organização do evento, via e-mail: contato@jovemprogramador.com.brA organização reserva-se o direito de recusar a participação de qualquer pessoa que não reúna os requisitos descritos neste regulamento, que não cumpra com os termos de participação ou viole o espírito do evento.A organização reserva-se no direito de modificar em qualquer momento o regulamento, ou mesmo sua possível anulação antes da data de início do evento, sempre que exista justa causa, comprometendo-se a comunicar o novo regulamento e as novas condições do evento ou sua anulação definitiva, se for o caso, com a suficiente antecipação e publicidade, sem que exista direito a qualquer indenização em favor dos participantes.A organização não se responsabiliza por participações que não sejam computadas por problemas técnicos que ocorram na transmissão dos dados.A organização poderá desqualificar automaticamente qualquer participante que possua comportamento inadequado ou viole direito de terceiros.Fica expressamente estipulado que não se estabelece, por força do presente evento e, ainda, pelo desenvolvimento por parte dos vencedores do projeto vencedor, qualquer vínculo de natureza empregatícia ou de responsabilidade, por parte dos realizadores, os participantes e, ainda, dos vencedores.Os participantes, Titulares, ou seu Representante Legal, consente e concorda que o SENAC Santa Catarina realize o tratamento de seus dados pessoais, envolvendo operações como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração, nos termos do art. 8º da Lei nº 13.709/2018.Os participantes declaram e aceitam todas as condições derivadas deste regulamento.A Comissão organizadora não se responsabiliza por problemas técnicos que possam inviabilizar a realização do evento, se dando o direito de cancelar o evento.Florianópolis, 27 de outubro de 2025Comissão Organizadora
 
 Leia agora
 
 Listar tudo
+
+Neste ano teremos um projeto-piloto com uma turma exclusiva para mulheres em uma de nossas Unidades! A proposta é fortalecer o acesso das mulheres na área de tecnologia trazendo novas oportunidades para esse público e para o segmento.
 
 Nossa missão é capacitar e formar jovens programadores
 
@@ -332,29 +102,17 @@ O Hackathon Jovem Programador é uma atividade extra-curricular do Programa Jove
 
 O JOVEM PROGRAMADOR é um PROGRAMA de capacitação tecnológica para formação de pessoas, a partir de 16 anos, para atuar em empresas do Estado de Santa Catarina, independentemente do local onde estejam instaladas.
 
-O JOVEM PROGRAMADOR é um PROGRAMA de capacitação tecnológica para formação de pessoas, a partir de 16 anos, para atuar em empresas do Estado de Santa Catarina, independentemente do local onde estejam instaladas.
-O curso permite que jovens possam se capacitar em Tecnologia da Informação através do parceiro de ensino, o Senac - Serviço Nacional de Aprendizagem Comercial - que dispõe de ampla experiência na área de formação e capacitação de profissionais e disponibilizará as instalações em aproximadamente 21 municipios de Santa Catarina,
-Os jovens terão infraestrutura técnica e terão aulas de forma hibrida, presencial e virtual, que exigem que os alunos tenham acesso a equipamentos para a realização das atividades práticas,
-A empregabilidade é o foco do PROGRAMA, que não mede esforços de gerar oportunidade aos alunos egressos do PROGRAMA nas empresas parceiras. A ideia é colocar na vitrine os alunos com bons indicadores, para que consigam colocações em empresas pequenas, médias e grandes da área de TI.
-O PROGRAMA se destina a pessoas:
-
- Com idade a partir de 16 anos:
- A partir do 1o ano do ensino médio;
- Que residam nas cidades beneficiadas pelo programa ou em cidades vizinhas
-
-O PROGRAMA é de iniciativa do Sindicato das Empresas de Informática, Processamentos de Dados e Tecnologia da Informação do Estado de Santa Catarina - SEPROSC e realização do SENAC.
-Para a edição de 2025 as cidades são:
-Araranguá, Blumenau, Biguaçu, Brusque, Caçador, Canoinhas, Chapecó, Concórdia, Criciúma, Curitibanos, Florianópolis, Fraiburgo, Jaraguá do Sul, Joaçaba, Joinville, Lages, Palhoça, Porto União, Rio do Sul, São Miguel do Oeste, Tubarão, Videira e Xanxerê.
+O JOVEM PROGRAMADOR é um PROGRAMA de capacitação tecnológica para formação de pessoas, a partir de 16 anos, para atuar em empresas do Estado de Santa Catarina, independentemente do local onde estejam instaladas.O curso permite que jovens possam se qualificar em Tecnologia da Informação através do parceiro de ensino,o Senac - Serviço Nacional de Aprendizagem Comercial - que dispõe de ampla experiência na área de formação e capacitação de profissionais e disponibilizará as instalações em aproximadamente23 municípios de Santa Catarina.Os jovens terão infraestrutura técnica e terão aulas de forma híbrida, presencial e virtual, que exigem que os alunos tenham acesso a equipamentos para a realização das atividades práticas.Neste ano teremos um projeto-piloto com uma turma exclusiva para mulheres em uma de nossas Unidades! A proposta é fortalecer o acesso das mulheres na área de tecnologia trazendo novas oportunidades para esse público e para o segmento.Apreparaçãoé o foco do PROGRAMA, que não mede esforços para gerar oportunidades para que os alunos conheçam as empresas parceiras. A ideia é proporcionar uma formação de qualidade, bem como interagir em webs de orientação de mercado e de experiência na área ao longo da formação com empresas com forte atuação em desenvolvimento de sistemas, para que os alunos se preparem para buscar colocações em empresas pequenas, médias e grandes da área de TI.O PROGRAMA se destina a pessoas:Com idade a partir de 16 anos:A partir da 1ª série do Ensino Médio;Que residam nas cidades beneficiadas pelo programa ou em cidades vizinhasO PROGRAMA é de iniciativado Sindicato das Empresas de Informática, Processamentos de Dados e Tecnologia da Informação do Estado de Santa Catarina -SEPROSCe realização doSENAC.Para a edição de 2026 as cidades são:Araranguá, Blumenau, Biguaçu, Brusque, Caçador, Canoinhas, Chapecó, Concórdia, Criciúma, Curitibanos, Florianópolis, Fraiburgo, Jaraguá do Sul, Joaçaba, Joinville, Lages, Palhoça, Porto União, Rio do Sul, São Miguel do Oeste, Tubarão, Videira e Xanxerê.
 
 O PROGRAMA se destina a pessoas:
 
-O PROGRAMA é de iniciativa do Sindicato das Empresas de Informática, Processamentos de Dados e Tecnologia da Informação do Estado de Santa Catarina - SEPROSC e realização do SENAC.
+O PROGRAMA é de iniciativado Sindicato das Empresas de Informática, Processamentos de Dados e Tecnologia da Informação do Estado de Santa Catarina -SEPROSCe realização doSENAC.
 
 O acesso à agenda e as informações complementares serão apresentadas na abertura do evento (29/11/2025).
 
 O cancelamento das inscrições poderá acontecer a qualquer momento em função do descumprimento deste regulamento.
 
-O curso permite que jovens possam se capacitar em Tecnologia da Informação através do parceiro de ensino, o Senac - Serviço Nacional de Aprendizagem Comercial - que dispõe de ampla experiência na área de formação e capacitação de profissionais e disponibilizará as instalações em aproximadamente 21 municipios de Santa Catarina,
+O curso permite que jovens possam se qualificar em Tecnologia da Informação através do parceiro de ensino,o Senac - Serviço Nacional de Aprendizagem Comercial - que dispõe de ampla experiência na área de formação e capacitação de profissionais e disponibilizará as instalações em aproximadamente23 municípios de Santa Catarina.
 
 O evento denominado Hackathon Jovem Programador é promovido pelo SENAC Santa Catarina e pelo SEPROSC - Sindicado das Empresas de Informática, Processamento de Dados e Tecnologia da Informação do Estado de Santa Catarina em parceria com seus patrocinadores e entidades apoiadoras.
 
@@ -364,7 +122,7 @@ Os encontros ao vivo seguem o cronograma apresentado no Quadro 2.
 
 Os grupos poderão sofrer alteração de seus componentes desde que respeitando o limite mínimo e máximo determinado no item 2.
 
-Os jovens terão infraestrutura técnica e terão aulas de forma hibrida, presencial e virtual, que exigem que os alunos tenham acesso a equipamentos para a realização das atividades práticas,
+Os jovens terão infraestrutura técnica e terão aulas de forma híbrida, presencial e virtual, que exigem que os alunos tenham acesso a equipamentos para a realização das atividades práticas.
 
 Os participantes concordam que ao aderirem a este regulamento, estarão autorizando tacitamente à organização, o direito de utilizar os trabalhos realizados pelos candidatos como ferramenta de difusão ou propaganda, em qualquer territorialidade, seja nacional e/ou internacional, durante o período de 10 (dez) anos respeitando a Lei de Propriedade Intelectual vigente no território brasileiro.
 
@@ -378,7 +136,7 @@ Os participantes, Titulares, ou seu Representante Legal, consente e concorda que
 
 Os termos de ciência e autorização de imagem e privacidade seguem àqueles acordados na matrícula dos alunos no Programa Jovem Programador firmado com o Senac Santa Catarina.
 
-Para a edição de 2025 as cidades são:
+Para a edição de 2026 as cidades são:
 
 Saiba mais
 

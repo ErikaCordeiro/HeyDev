@@ -1,3 +1,4 @@
+/* === ESTILO GERAL === */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #0d001f;
@@ -6,6 +7,7 @@ body {
   color: #fff;
 }
 
+/* === BOTÃO FLUTUANTE === */
 .chat-btn {
   position: fixed;
   bottom: 25px;
@@ -19,13 +21,15 @@ body {
   font-size: 28px;
   cursor: pointer;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .chat-btn:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 47, 180, 0.6);
 }
 
+/* === JANELA DO CHAT === */
 .chat-box {
   display: none;
   flex-direction: column;
@@ -33,20 +37,29 @@ body {
   position: fixed;
   bottom: 100px;
   right: 25px;
-  width: 380px;
+  width: 90%;
+  max-width: 380px;
   height: 520px;
-  background: linear-gradient(160deg, #2d0b47, #120024);
+  background: linear-gradient(160deg, #3a1463, #1a002e);
   border-radius: 25px;
   box-shadow: 0 0 25px rgba(255, 47, 180, 0.4);
   overflow: hidden;
   animation: fadeIn 0.3s ease-in-out;
+  backdrop-filter: blur(4px);
 }
 
 @keyframes fadeIn {
-  from {opacity: 0; transform: translateY(20px);}
-  to {opacity: 1; transform: translateY(0);}
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
+/* === CABEÇALHO === */
 .chat-header {
   display: flex;
   justify-content: space-between;
@@ -59,31 +72,56 @@ body {
 .header-left {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 
 .bot-avatar {
   width: 35px;
   height: 35px;
-  margin-right: 10px;
   border-radius: 50%;
 }
 
-.close-btn {
-  background: transparent;
-  color: white;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
+.header-left h3 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
+/* === BOTÕES DO TOPO (FECHAR E SOM) === */
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#botaoSom,
+.close-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease, text-shadow 0.2s ease;
+}
+
+#botaoSom:hover,
+.close-btn:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+  text-shadow: 0 0 4px #ffb3ec, 0 0 8px #b78cff;
+}
+
+/* === CORPO DO CHAT === */
 .chat-body {
   flex: 1;
   padding: 15px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  scroll-behavior: smooth;
 }
 
+/* === MENSAGENS === */
 .mensagem-usuario {
   align-self: flex-end;
   background: #7b2fff;
@@ -92,6 +130,9 @@ body {
   border-radius: 15px 15px 0 15px;
   margin: 6px 0;
   max-width: 80%;
+  word-wrap: break-word;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .mensagem-bot {
@@ -102,8 +143,50 @@ body {
   border-radius: 15px 15px 15px 0;
   margin: 6px 0;
   max-width: 80%;
+  word-wrap: break-word;
+  position: relative;
+  line-height: 1.5;
+  font-size: 15px;
 }
 
+/* === BOTÃO "VER MAIS / VER MENOS" === */
+.ver-mais {
+  background: none;
+  border: none;
+  color: #ffe0f3;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-left: 6px;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.ver-mais:hover {
+  color: #ffffff;
+}
+
+/* === ANIMAÇÃO DIGITANDO === */
+.digitando {
+  font-style: italic;
+  color: #ccc;
+  opacity: 0.9;
+  animation: piscar 1.5s infinite;
+}
+
+@keyframes piscar {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+/* === RODAPÉ DO CHAT === */
 .chat-footer {
   display: flex;
   align-items: center;
@@ -120,9 +203,15 @@ body {
   padding: 12px;
   border-radius: 20px;
   outline: none;
+  font-size: 15px;
 }
 
-.enviar-btn {
+#inputMsg:focus {
+  box-shadow: 0 0 8px #7b2fff;
+}
+
+.enviar-btn,
+#microfone {
   background: linear-gradient(135deg, #ff2eb3, #7b2fff);
   border: none;
   color: white;
@@ -132,9 +221,54 @@ body {
   margin-left: 8px;
   font-size: 18px;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.enviar-btn:hover {
+.enviar-btn:hover,
+#microfone:hover {
   transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 47, 180, 0.6);
+}
+
+/* === SCROLL PERSONALIZADO === */
+.chat-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-body::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #ff2eb3, #7b2fff);
+  border-radius: 10px;
+}
+
+.chat-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* === RESPONSIVIDADE === */
+@media (max-width: 420px) {
+  .chat-box {
+    width: 95%;
+    right: 10px;
+    bottom: 90px;
+    height: 480px;
+  }
+
+  .chat-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 24px;
+  }
+
+  .bot-avatar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header-left h3 {
+    font-size: 1em;
+  }
+
+  #inputMsg {
+    font-size: 14px;
+  }
 }
