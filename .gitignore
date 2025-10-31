@@ -1,5 +1,6 @@
 .env
-Documentacao_ABNT_ChatBot_JovemProgramador (1)
-chatbot.db
-Documentacao_ABNT_ChatBot_JovemProgramador (1).docx
-__pycache__ 
+venv/
+__pycache__/
+*.py[cod]
+*.db
+.vscode/
