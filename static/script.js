@@ -1,3 +1,4 @@
+// === ELEMENTOS DO CHAT ===
 const chatBtn = document.getElementById("chatBtn");
 const chatBox = document.getElementById("chatBox");
 const closeBtn = document.getElementById("closeBtn");
@@ -6,11 +7,11 @@ const inputMsg = document.getElementById("inputMsg");
 const mensagens = document.getElementById("mensagens");
 const microfoneBtn = document.getElementById("microfone");
 
-// 🔊 Controle de voz
+// === CONTROLE DE VOZ ===
 let botFalando = false;
 let vozAtiva = true;
 
-// Botão de som (🔊 / 🔇)
+// === BOTÃO DE SOM ===
 let botaoSom = document.getElementById("botaoSom");
 if (!botaoSom) {
   botaoSom = document.createElement("button");
@@ -18,30 +19,34 @@ if (!botaoSom) {
   botaoSom.textContent = "🔊";
   botaoSom.setAttribute("aria-label", "Ativar/Desativar som");
   botaoSom.title = "Ativar/Desativar som";
-
   const headerButtons = document.querySelector(".header-buttons");
-  if (headerButtons) {
-    headerButtons.appendChild(botaoSom);
-  } else {
+  if (headerButtons) headerButtons.appendChild(botaoSom);
+  else {
     const chatHeader = document.querySelector(".chat-header");
     if (chatHeader) chatHeader.appendChild(botaoSom);
   }
 }
 
-// Abre/fecha o chat
+// === ABRIR / FECHAR CHAT ===
+function abrirChat() {
+  chatBox.style.display = "flex";
+  setTimeout(() => inputMsg.focus(), 200);
+}
+
+function fecharChat() {
+  chatBox.style.display = "none";
+  speechSynthesis.cancel();
+  botFalando = false;
+}
+
 chatBtn.addEventListener("click", () => {
   const aberto = chatBox.style.display === "flex";
-  chatBox.style.display = aberto ? "none" : "flex";
-  if (!aberto) inputMsg.focus(); // foco automático no campo ao abrir
+  aberto ? fecharChat() : abrirChat();
 });
 
-closeBtn.addEventListener("click", () => {
-  chatBox.style.display = "none";
-  speechSynthesis.cancel(); // 🔇 para de falar ao fechar
-  botFalando = false;
-});
+closeBtn.addEventListener("click", fecharChat);
 
-// Liga/desliga a voz do bot
+// === LIGAR / DESLIGAR VOZ ===
 botaoSom.addEventListener("click", () => {
   vozAtiva = !vozAtiva;
   botaoSom.textContent = vozAtiva ? "🔊" : "🔇";
@@ -51,18 +56,17 @@ botaoSom.addEventListener("click", () => {
   }
 });
 
-// Adiciona mensagem no chat
+// === ADICIONAR MENSAGEM ===
 function adicionarMensagem(texto, remetente) {
   const div = document.createElement("div");
   div.classList.add(remetente === "usuario" ? "mensagem-usuario" : "mensagem-bot");
 
   if (remetente === "bot") {
-    // Texto longo: botão "ver mais"
     const maxLength = 400;
     if (texto.length > maxLength) {
       const resumo = texto.slice(0, maxLength) + "...";
       div.innerHTML = `<span class="resposta-curta">${resumo}</span>
-                       <button class="ver-mais">ver mais</button>`;
+                       <button class="ver-mais" aria-label="Ver mais">ver mais</button>`;
       const btn = div.querySelector(".ver-mais");
       btn.addEventListener("click", () => {
         const curta = div.querySelector(".resposta-curta");
@@ -78,7 +82,7 @@ function adicionarMensagem(texto, remetente) {
       div.innerHTML = texto;
     }
 
-    // 🎧 Controle de voz
+    // 🎧 FALA DO BOT
     if (vozAtiva) {
       if (speechSynthesis.speaking) speechSynthesis.cancel();
       if (!botFalando) {
@@ -100,7 +104,7 @@ function adicionarMensagem(texto, remetente) {
   mensagens.scrollTo({ top: mensagens.scrollHeight, behavior: "smooth" });
 }
 
-// Mostra "digitando..."
+// === MOSTRAR "DIGITANDO..." ===
 function mostrarDigitando() {
   const div = document.createElement("div");
   div.classList.add("mensagem-bot", "digitando");
@@ -110,7 +114,7 @@ function mostrarDigitando() {
   return div;
 }
 
-// Envia mensagem para o backend
+// === ENVIAR MENSAGEM ===
 async function enviarMensagem() {
   const texto = inputMsg.value.trim();
   if (!texto) return;
@@ -120,7 +124,7 @@ async function enviarMensagem() {
   const digitandoDiv = mostrarDigitando();
 
   try {
-    const resposta = await fetch("http://127.0.0.1:8000/chat", {
+    const resposta = await fetch("/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ mensagem: texto }),
@@ -138,7 +142,7 @@ async function enviarMensagem() {
   }
 }
 
-// Eventos de envio
+// === EVENTOS DE ENVIO ===
 enviarBtn.addEventListener("click", enviarMensagem);
 inputMsg.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
@@ -147,7 +151,7 @@ inputMsg.addEventListener("keypress", (e) => {
   }
 });
 
-// 🎤 Entrada de voz
+// === RECONHECIMENTO DE VOZ ===
 if ("webkitSpeechRecognition" in window) {
   const reconhecimento = new webkitSpeechRecognition();
   reconhecimento.lang = "pt-BR";
@@ -176,4 +180,17 @@ if ("webkitSpeechRecognition" in window) {
 } else {
   microfoneBtn.disabled = true;
   microfoneBtn.title = "Seu navegador não suporta reconhecimento de voz.";
+}
+
+// === NOVO: INTEGRAR BOTÕES DO SITE ===
+const btnExperimentar = document.querySelector(".btn-primary");
+if (btnExperimentar) {
+  btnExperimentar.addEventListener("click", abrirChat);
+}
+
+const btnSaibaMais = document.querySelector(".btn-secondary");
+if (btnSaibaMais) {
+  btnSaibaMais.addEventListener("click", () => {
+    window.scrollTo({ top: document.body.scrollHeight / 2, behavior: "smooth" });
+  });
 }
