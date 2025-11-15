@@ -13,20 +13,26 @@ h1, h2, h3 {
 }
 
 section {
-  padding: 80px 10%;
+  padding: 30px 10%;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  color: #000000;
 }
 
 /* === HERO === */
 .hero {
-  background: linear-gradient(135deg, #7b2fff, #ff2eb3);
+  background: linear-gradient(135deg, #7b2fff, #99166f);
   color: white;
   text-align: center;
   padding: 120px 10% 100px;
 }
 
 .hero-logo {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   border-radius: 20%;
   margin-bottom: 15px;
 }
@@ -34,6 +40,7 @@ section {
 .hero h1 {
   font-size: 3em;
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 .hero h1 span {
@@ -47,25 +54,47 @@ section {
   color: #ffe7ff;
 }
 
+.hero .tags {
+  margin-bottom: 20px;
+}
+
+.hero .tags span {
+  margin: 0 10px;
+  font-size: 0.95em;
+}
+
 .btns {
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .btn {
-  padding: 14px 30px;
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
+  padding: 14px 36px;
+  border-radius: 40px;
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(135deg, #7b2fff, #99166f) border-box;
+  color: #7b2fff;
   font-weight: 600;
-  font-size: 1em;
-  transition: 0.3s;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(153, 22, 111, 0.15);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #7b2fff, #99166f);
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(153, 22, 111, 0.4);
+  transform: translateY(-3px);
 }
 
 .btn-primary {
   background-color: #fff;
   color: #7b2fff;
+  margin-top: 40px
 }
 
 .btn-primary:hover {
@@ -73,19 +102,24 @@ section {
 }
 
 .btn-secondary {
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
+  background-color: #fff;
+  color: #7b2fff;
+  margin-top: 40px
 }
 
 .btn-secondary:hover {
   background-color: #ffffff22;
 }
 
-/* === SOBRE === */
+.hero .footer-note {
+  font-size: 0.9em;
+  margin-top: 40px;
+  color: #ffe7ff;
+}
+
+/* === BENEFÍCIOS === */
 .sobre {
   background-color: #faf7ff;
-  text-align: center;
 }
 
 .sobre h2 {
@@ -95,7 +129,6 @@ section {
 }
 
 .sobre p {
-  color: #444;
   max-width: 800px;
   margin: 0 auto 40px;
 }
@@ -104,15 +137,15 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 .card {
   background: #fff;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   padding: 30px;
-  width: 250px;
+  width: 300px;
   transition: transform 0.3s ease;
 }
 
@@ -123,17 +156,33 @@ section {
 .card h3 {
   color: #7b2fff;
   margin-bottom: 10px;
+  font-size: 1.1em;
 }
+
+.card-alunos { 
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  width: 400px;
+  transition: transform 0.3s ease;
+  }
 
 /* === COMO O HEYDEV NOS TRANSFORMOU === */
 .transformou {
   background-color: #fff;
-  text-align: center;
 }
 
 .transformou h2 {
-  color: #ff2eb3;
+  color: #99166f;
   font-size: 2.4em;
+  margin-bottom: 10px;
+}
+
+.transformou p {
+  color: #000000;
+  max-width: 800px;
+  margin: 0 auto 10px;
 }
 
 .valores {
@@ -148,40 +197,100 @@ section {
   background: #faf7ff;
   border-radius: 15px;
   padding: 25px;
-  width: 220px;
+  width: 300px;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.valor:hover {
+  transform: translateY(-6px);
 }
 
 .valor h3 {
   color: #7b2fff;
+  margin-bottom: 10px;
 }
 
-/* === PORQUE === */
+/* === DE ALUNOS PARA ALUNOS === */
 .porque {
   background-color: #faf7ff;
-  text-align: center;
 }
 
 .porque h2 {
   color: #7b2fff;
   font-size: 2.4em;
+  margin-bottom: 10px;
+}
+
+.porque p {
+  color: #000000;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.porque h5 {
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto 40px;
 }
 
 .compromisso {
-  background: linear-gradient(135deg, #7b2fff, #ff2eb3);
+  background: linear-gradient(135deg, #7b2fff, #99166f);
   color: white;
-  padding: 40px 20px;
+  padding: 40px 40px;
   border-radius: 15px;
-  margin-top: 40px;
-  max-width: 900px;
+  margin-top: 50px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 4px 20px rgba(153, 22, 111, 0.3);
+  font-weight: 600;
+}
+
+/* === ATENDIMENTO === */
+.atendimento {
+  background: linear-gradient(135deg, #7b2fff, #99166f);
+  color: white;
+  text-align: center;
+  padding: 100px 10%;
+}
+
+.atendimento h2 {
+  font-size: 2.6em;
+}
+
+.atendimento .dados {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: 40px 0;
+}
+
+.atendimento .dados div {
+  text-align: center;
+}
+
+.atendimento .dados strong {
+  font-size: 2em;
+  display: block;
+  color: #fff;
+}
+
+.atendimento p {
+  color: #ffe7ff;
+}
+
+.atendimento .note {
+  font-size: 0.9em;
+  margin-top: 20px;
+  opacity: 0.9;
 }
 
 /* === FOOTER === */
 footer {
   background: #fff;
-  color: #333;
+  color: #000000;
   padding: 50px 10%;
   border-top: 1px solid #eee;
   display: flex;
@@ -206,7 +315,7 @@ footer ul li {
 }
 
 footer ul li a {
-  color: #444;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -214,16 +323,29 @@ footer ul li a:hover {
   color: #7b2fff;
 }
 
+footer .social-links a {
+  display: block;
+  color: #7b2fff;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+footer .social-links a:hover {
+  text-decoration: underline;
+}
+
 footer .copyright {
   text-align: center;
   width: 100%;
   margin-top: 30px;
-  color: #777;
+  color: #000000;
 }
 
 /* === RESPONSIVO === */
 @media (max-width: 768px) {
-  .cards, .valores {
+  .cards,
+  .valores,
+  .atendimento .dados {
     flex-direction: column;
     align-items: center;
   }
@@ -241,7 +363,7 @@ footer .copyright {
   }
 
   .btn {
-    width: 200px;
+    width: 220px;
   }
 
   footer {
@@ -250,3 +372,4 @@ footer .copyright {
     align-items: flex-start;
   }
 }
+
