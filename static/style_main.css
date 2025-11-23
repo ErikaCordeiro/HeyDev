@@ -184,6 +184,15 @@ p {
   font-size: 1.1em;
 }
 
+.card-alunos { 
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  width: 400px;
+  transition: transform 0.3s ease;
+  }
+
 /* === COMO O HEYDEV NOS TRANSFORMOU === */
 .transformou {
   background-color: #fff;
@@ -391,3 +400,4 @@ footer .copyright {
     align-items: flex-start;
   }
 }
+
