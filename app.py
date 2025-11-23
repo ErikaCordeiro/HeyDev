@@ -38,7 +38,8 @@ URLS_ALVO = [
     "https://www.jovemprogramador.com.br/",
     "https://www.jovemprogramador.com.br/hackathon",
     "https://www.jovemprogramador.com.br/hackathon/#regulamento",
-    "https://www.jovemprogramador.com.br/hackathon/#noticias"
+    "https://www.jovemprogramador.com.br/hackathon/#noticias",
+    "https://www.jovemprogramador.com.br/sobre.php"
 ]
 ARQUIVO_CONTEXTO = "paragrafo_extraido.txt"
 INTERVALO_ATUALIZACAO_SEGUNDOS = 24 * 60 * 60  # 24h

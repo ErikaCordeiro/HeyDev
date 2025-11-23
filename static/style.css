@@ -7,12 +7,26 @@ body {
   color: #fff;
 }
 
+/* Foco visível */
+:focus {
+  outline: 2px solid #00EEFF;
+  outline-offset: 3px;
+}
+
+/* Reduz animações caso necessário */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 /* === BOTÃO FLUTUANTE === */
 .chat-btn {
   position: fixed;
   bottom: 25px;
   right: 25px;
-  background: linear-gradient(135deg, #ff2eb3, #7b2fff);
+  background: linear-gradient(135deg, #99166f, #7b2fff);
   color: white;
   border: none;
   border-radius: 50%;
@@ -20,13 +34,13 @@ body {
   height: 65px;
   font-size: 28px;
   cursor: pointer;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  z-index: 999;
 }
-
 .chat-btn:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(255, 47, 180, 0.6);
+  box-shadow: 0 0 15px rgba(153,22,111,0.6);
 }
 
 /* === JANELA DO CHAT === */
@@ -40,31 +54,27 @@ body {
   width: 90%;
   max-width: 380px;
   height: 520px;
+  max-height: 90vh;
   background: linear-gradient(160deg, #3a1463, #1a002e);
   border-radius: 25px;
-  box-shadow: 0 0 25px rgba(255, 47, 180, 0.4);
+  box-shadow: 0 0 25px rgba(153,22,111,0.4);
   overflow: hidden;
   animation: fadeIn 0.3s ease-in-out;
   backdrop-filter: blur(4px);
+  z-index: 998;
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* === CABEÇALHO === */
+/* === CABEÇALHO DO CHAT === */
 .chat-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(90deg, #7b2fff, #ff2eb3);
+  background: linear-gradient(90deg, #7b2fff, #99166f);
   padding: 10px 15px;
   color: white;
 }
@@ -72,43 +82,71 @@ body {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .bot-avatar {
-  width: 35px;
-  height: 35px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
 }
 
+/* 🔥 TÍTULO HEYDEV AUMENTADO 🔥 */
+.header-titles h3,
 .header-left h3 {
   margin: 0;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.7em;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(255,255,255,0.35);
+  line-height: 1.1;
 }
 
-/* === BOTÕES DO TOPO (FECHAR E SOM) === */
+.subtitulo {
+  margin: 0;
+  font-size: 1em;
+  color: #ffe0f3;
+  opacity: 0.95;
+}
+
+@media (max-width: 480px) {
+  .header-left h3 {
+    font-size: 1.45em;
+  }
+  .subtitulo {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-left h3 {
+    font-size: 1.3em;
+  }
+}
+
+/* === BOTÕES SUPERIORES === */
 .header-buttons {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-#botaoSom,
-.close-btn {
+#botaoSom, .close-btn {
   background: transparent;
   border: none;
   color: white;
   font-size: 20px;
   cursor: pointer;
-  transition: transform 0.2s ease, opacity 0.2s ease, text-shadow 0.2s ease;
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
-
-#botaoSom:hover,
-.close-btn:hover {
+#botaoSom:hover, .close-btn:hover {
   transform: scale(1.2);
   opacity: 0.9;
-  text-shadow: 0 0 4px #ffb3ec, 0 0 8px #b78cff;
+  text-shadow: 0 0 4px #ffb3ec;
 }
 
 /* === CORPO DO CHAT === */
@@ -118,7 +156,14 @@ body {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  scroll-behavior: smooth;
+}
+
+.chat-body::-webkit-scrollbar {
+  width: 8px;
+}
+.chat-body::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #99166f, #7b2fff);
+  border-radius: 10px;
 }
 
 /* === MENSAGENS === */
@@ -126,149 +171,150 @@ body {
   align-self: flex-end;
   background: #7b2fff;
   color: white;
-  padding: 10px 14px;
+  padding: 12px 16px;
   border-radius: 15px 15px 0 15px;
   margin: 6px 0;
   max-width: 80%;
   word-wrap: break-word;
   font-size: 15px;
-  line-height: 1.5;
 }
 
 .mensagem-bot {
   align-self: flex-start;
-  background: #ff2eb3;
+  background: #9f1a75;
   color: white;
-  padding: 10px 14px;
+  padding: 12px 16px;
   border-radius: 15px 15px 15px 0;
   margin: 6px 0;
   max-width: 80%;
   word-wrap: break-word;
-  position: relative;
-  line-height: 1.5;
   font-size: 15px;
+  box-shadow: 0 0 10px rgba(153,22,111,0.25);
+  transition: transform 0.2s ease;
+}
+.mensagem-bot:hover {
+  transform: translateY(-2px);
 }
 
-/* === BOTÃO "VER MAIS / VER MENOS" === */
+/* Botão de ver mais */
 .ver-mais {
   background: none;
   border: none;
-  color: #ffe0f3;
+  color: #FFE6F6;
   cursor: pointer;
-  font-size: 0.9em;
-  font-weight: 500;
-  margin-left: 6px;
   text-decoration: underline;
-  transition: color 0.2s ease;
+  font-size: 0.92em;
+  font-weight: 600;
 }
-
 .ver-mais:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
-/* === ANIMAÇÃO DIGITANDO === */
+/* Digitando */
 .digitando {
   font-style: italic;
-  color: #ccc;
-  opacity: 0.9;
+  color: #ddd;
+  opacity: 0.95;
   animation: piscar 1.5s infinite;
 }
-
 @keyframes piscar {
-  0% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.3;
-  }
+  0% { opacity: .3; }
+  50% { opacity: 1; }
+  100% { opacity: .3; }
+}
+.digitando::after {
+  content: " ⏳";
 }
 
-/* === RODAPÉ DO CHAT === */
+/* Quick replies */
+.quick-replies {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.quick-replies button {
+  background: #2e0d45;
+  border: 1px solid #7b2fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+.quick-replies button:hover {
+  background: #7b2fff;
+}
+
+/* === RODAPÉ === */
 .chat-footer {
   display: flex;
   align-items: center;
-  border-top: 1px solid #2e0d45;
+  gap: 10px;
   padding: 10px;
-  background: #1a002e;
+  border-top: 1px solid #2e0d45;
+  background: #120025;
 }
 
 #inputMsg {
   flex: 1;
   background: #2e0d45;
-  border: none;
-  color: white;
-  padding: 12px;
+  border: 1px solid transparent;
+  padding: 12px 14px;
   border-radius: 20px;
-  outline: none;
+  color: white;
   font-size: 15px;
 }
-
 #inputMsg:focus {
+  border-color: #7b2fff;
   box-shadow: 0 0 8px #7b2fff;
 }
 
 .enviar-btn,
 #microfone {
-  background: linear-gradient(135deg, #ff2eb3, #7b2fff);
-  border: none;
-  color: white;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  width: 42px;
-  height: 42px;
-  margin-left: 8px;
-  font-size: 18px;
+  border: none;
+  font-size: 20px;
+  color: white;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: linear-gradient(135deg, #99166f, #7b2fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .enviar-btn:hover,
 #microfone:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(255, 47, 180, 0.6);
+  transform: scale(1.08);
 }
 
-/* === SCROLL PERSONALIZADO === */
-.chat-body::-webkit-scrollbar {
-  width: 6px;
+/* Microfone ativo */
+#microfone.ativo {
+  background: radial-gradient(circle, #99166f 0%, #7b2fff 60%, #3a1463 100%);
+  animation: pulsar 1.2s infinite;
+}
+@keyframes pulsar {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.12); }
+  100% { transform: scale(1); }
 }
 
-.chat-body::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #ff2eb3, #7b2fff);
-  border-radius: 10px;
-}
-
-.chat-body::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-/* === RESPONSIVIDADE === */
-@media (max-width: 420px) {
+/* Ajustes Mobile */
+@media (max-width: 480px) {
   .chat-box {
     width: 95%;
     right: 10px;
     bottom: 90px;
     height: 480px;
   }
-
   .chat-btn {
     width: 55px;
     height: 55px;
     font-size: 24px;
   }
-
   .bot-avatar {
-    width: 30px;
-    height: 30px;
-  }
-
-  .header-left h3 {
-    font-size: 1em;
-  }
-
-  #inputMsg {
-    font-size: 14px;
+    width: 48px;
+    height: 48px;
   }
 }

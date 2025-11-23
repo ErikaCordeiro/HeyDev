@@ -1,121 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>heyDev - Seu Assistente Jovem Programador</title>
-  <link rel="stylesheet" href="/static/style_main.css" /> <!-- Estilo do site -->
-  <link rel="stylesheet" href="/static/style.css" /> <!-- Estilo do chatbot -->
-  <link rel="icon" type="image/png" href="/static/robot.jpeg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HeyDev - Jovem Programador</title>
+
+    <!-- Estilo principal da página -->
+    <link rel="stylesheet" href="/static/style_main.css" />
+
+    <!-- Estilo e script do chatbot -->
+    <link rel="stylesheet" href="/static/style.css" />
+    <script defer src="/static/script.js"></script>
 </head>
-
 <body>
-  <!-- Seção principal -->
-  <section class="hero">
-    <img src="/static/robot.jpeg" alt="Ícone HeyDev" class="hero-logo" />
-    <h1>Conheça o <span>heyDev</span></h1>
-    <p>Seu assistente inteligente que conhece tudo sobre o programa Jovem Programador.</p>
-    <p>Tire suas dúvidas sobre o curso, inscrições e conteúdo com nosso chatbot alimentado por IA.</p>
-    <div class="btns">
-      <button class="btn btn-primary">💬 Experimentar Agora</button>
-      <button class="btn btn-secondary">Saiba Mais</button>
-    </div>
-  </section>
 
-  <!-- Sobre o Projeto -->
-  <section class="sobre">
-    <h2>Sobre o Projeto</h2>
-    <p>O heyDev foi desenvolvido para democratizar o acesso às informações do programa Jovem Programador.</p>
-    <div class="cards">
-      <div class="card">
-        <h3>🤖 Chatbot Inteligente</h3>
-        <p>Respostas instantâneas e precisas sobre o programa Jovem Programador.</p>
-      </div>
-      <div class="card">
-        <h3>🧠 IA Avançada</h3>
-        <p>Alimentado por tecnologia de ponta para compreender suas dúvidas.</p>
-      </div>
-      <div class="card">
-        <h3>⚡ Respostas Rápidas</h3>
-        <p>Obtenha informações em segundos, sem precisar esperar por atendimento.</p>
-      </div>
-      <div class="card">
-        <h3>🔄 Sempre Atualizado</h3>
-        <p>Informações constantemente extraídas do site oficial.</p>
-      </div>
-    </div>
-  </section>
+    <!-- Seção 1: Hero -->
+    <header class="hero">
+        <img src="/static/robot.jpeg" alt="HeyDev" class="hero-logo">
+        <h1>Transforme Sua Jornada no <span>Jovem Programador</span></h1>
+        <p>O HeyDev é seu assistente de atendimento inteligente disponível 24/7<br>para todas as suas dúvidas</p>
 
-  <!-- Como o heyDev nos transformou -->
-  <section class="transformou">
-    <h2>Como o heyDev Nos Transformou</h2>
-    <p>Uma jornada de aprendizado que mudou nossas vidas.</p>
-    <div class="valores">
-      <div class="valor"><h3>🌟 Confiança</h3><p>Nos sentimos capazes de criar qualquer projeto.</p></div>
-      <div class="valor"><h3>🏆 Realização</h3><p>Orgulho de ver nossas ideias ganhando vida.</p></div>
-      <div class="valor"><h3>📈 Crescimento</h3><p>Evoluímos com cada linha de código.</p></div>
-      <div class="valor"><h3>💜 Paixão</h3><p>Descobrimos o amor pela programação.</p></div>
-    </div>
-  </section>
+        <div class="tags">
+            <span>⚡ Respostas Instantâneas</span>
+            <span>🕓 Disponível 24/7</span>
+            <span>💬 100% Gratuito</span>
+        </div>
 
-  <!-- Por que criamos -->
-  <section class="porque">
-    <h2>Por Que Criamos o heyDev?</h2>
-    <p>A motivação por trás do projeto e como ele pode ajudar você.</p>
-    <div class="cards">
-      <div class="card"><h3>♿ Acessibilidade</h3><p>Facilitamos o acesso às informações do programa.</p></div>
-      <div class="card"><h3>💖 Apoio aos Jovens</h3><p>Auxiliamos quem está começando na programação.</p></div>
-      <div class="card"><h3>💡 Inovação</h3><p>Mostramos o poder da IA aplicada à educação.</p></div>
+        <div class="btns">
+            <button id="btn-comecar" class="btn btn-primary">Começar Gratuitamente</button>
+            <button class="btn btn-secondary">Ver Como Funciona</button>
+        </div>
+
+        <p class="footer-note">💡 Criado por alunos do Jovem Programador para alunos do Jovem Programador</p>
+    </header>
+
+    <!-- Seção 2: Benefícios -->
+    <section class="sobre">
+        <p class="section-tag">Por Que Escolher o HeyDev?</p>
+        <h2>Seu Atalho Para o Sucesso no Jovem Programador</h2>
+        <p>Pare de perder tempo procurando informações. Tenha todas as respostas que você precisa instantaneamente, 24/7, completamente grátis.</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>⚡ Respostas 3x Mais Rápidas</h3>
+                <p>Encontre respostas instantâneas sem perder tempo navegando pelo site. Atendimento ágil e eficiente.</p>
+            </div>
+            <div class="card">
+                <h3>⏱️ Economia de Tempo</h3>
+                <p>Elimine horas de busca por informações. O HeyDev encontra exatamente o que você precisa em segundos.</p>
+            </div>
+            <div class="card">
+                <h3>🎯 Respostas Precisas</h3>
+                <p>Baseado no conteúdo oficial do Jovem Programador, garantindo informações sempre atualizadas e corretas.</p>
+            </div>
+            <div class="card">
+                <h3>🤖 Atendimento Constante</h3>
+                <p>Tire dúvidas a qualquer momento e obtenha respostas precisas sempre que precisar.</p>
+            </div>
+        </div>
+
+        <button id="btn-experimentar" class="btn btn-primary">Experimentar Gratuitamente</button>
+    </section>
+
+    <!-- Seção 3: Transformação -->
+    <section class="transformou">
+        <h2>Como o HeyDev Nos Transformou</h2>
+        <p>Uma jornada de aprendizado que mudou nossas vidas</p>
+
+        <div class="text-box">
+            <h3>Agora Nos Sentimos Programadores de Verdade</h3>
+            <p>
+                Criar o <strong>HeyDev</strong> foi uma experiência transformadora. Pela primeira vez, saímos da teoria e colocamos a mão na massa em um projeto real que realmente ajuda pessoas.
+                Cada desafio superado nos tornou mais confiantes e seguros.
+            <br>
+            <br>
+                O que começou como uma ideia simples se transformou em uma aplicação completa com scraping, IA e interface moderna.
+                Ver o projeto funcionando nos fez perceber: sim, somos programadores!
+            </p>
+        </div>
+
+        <div class="valores">
+            <div class="valor"><h3>✨ Confiança</h3><p>Nos sentimos capazes de criar qualquer projeto</p></div>
+            <div class="valor"><h3>🏆 Realização</h3><p>Orgulho de ver nossas ideias ganhando vida</p></div>
+            <div class="valor"><h3>🚀 Crescimento</h3><p>Evoluímos constantemente com cada linha de código</p></div>
+            <div class="valor"><h3>💜 Paixão</h3><p>Descobrimos o amor pela programação</p></div>
+        </div>
+    </section>
+
+    <!-- Seção 4: De Alunos para Alunos -->
+    <section class="porque">
+        <p class="section-tag">Nossa História</p>
+        <h2>De Alunos Para Alunos</h2>
+        <p>Sabemos como é difícil encontrar informações rapidamente quando você está estudando. Por isso criamos uma solução que resolve esse problema de vez.</p>
+
+        <div class="cards">
+            <div class="card-alunos"><h3>🎯 Acessibilidade</h3><p>Facilitar o acesso às informações do programa, permitindo que qualquer pessoa tire suas dúvidas a qualquer hora.</p></div>
+            <div class="card-alunos"><h3>💗 Apoio aos Jovens</h3><p>Ajuda os alunos a entenderem melhor o programa e se sentirem seguros para dar o primeiro passo.</p></div>
+            <div class="card-alunos"><h3>💡 Inovação</h3><p>Mostra como a tecnologia pode aproximar pessoas e tornar informações acessíveis com IA.</p></div>
+        </div>
+
+        <div class="compromisso">
+            <h3>Nosso Compromisso</h3>
+            <br>
+            <h5>O HeyDev foi criado para quebrar barreiras e tornar o conhecimento sobre o Jovem Programador acessível a todos.</h5>
+        </div>
+    </section>
+
+    <!-- Seção 5: Atendimento -->
+    <section class="atendimento">
+        <h2>Atendimento?</h2>
+        <p>Junte-se a dezenas de usuários que já estão usando o HeyDev para obter respostas rápidas e eficientes sobre o Jovem Programador.</p>
+        <div class="dados">
+            <div><strong>24/7</strong><p>Sempre Disponível</p></div>
+            <div><strong>100%</strong><p>Gratuito</p></div>
+            <div><strong>&lt;3s</strong><p>Tempo de Resposta</p></div>
+        </div>
+        <button id="btn-comecar2" class="btn btn-primary">Começar Agora - É Grátis →</button>
+        <p class="note">💬 Sem cadastro necessário • Sem custos ocultos • Comece em segundos</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div>
+            <h3>HeyDev</h3>
+            <p>Seu assistente inteligente para o programa Jovem Programador</p>
+        </div>
+        <div>
+            <h4>Links Úteis</h4>
+            <ul>
+                <li><a href="https://www.jovemprogramador.com.br/" target="_blank">Site Jovem Programador</a></li>
+                <li><a href="https://www.jovemprogramador.com.br/sobre/" target="_blank">Sobre o Programa</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Contato</h4>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/deboramonteirom/" target="_blank">LinkedIn Débora</a>
+                <a href="https://www.linkedin.com/in/cordeiroserika/" target="_blank">LinkedIn Erika</a>
+            </div>
+        </div>
+        <p class="copyright">© 2025 HeyDev. Criado com 💜 para o programa Jovem Programador.</p>
+    </footer>
+
+    <!-- Botão Flutuante do Chat -->
+    <button id="chatBtn" class="chat-btn" aria-label="Abrir o chat">💬</button>
+
+    <!-- Caixa de Chat -->
+    <div id="chatBox" class="chat-box" aria-hidden="true">
+        <div class="chat-header">
+            <div class="header-left">
+                <img src="/static/robot.jpeg" alt="Bot HeyDev" class="bot-avatar">
+                <div class="header-titles">
+                    <h3>HeyDev</h3>
+                    <p class="subtitulo">Assistente Jovem Programador</p>
+                </div>
+            </div>
+            <div class="header-buttons">
+                <button id="botaoSom" title="Ativar/Desativar som">🔊</button>
+                <button id="closeBtn" class="close-btn" title="Fechar chat">✖</button>
+            </div>
+        </div>
+
+        <div id="mensagens" class="chat-body"></div>
+
+        <div class="chat-footer">
+            <input id="inputMsg" type="text" placeholder="Digite sua mensagem..." aria-label="Campo de mensagem">
+            <button id="microfone" title="Falar com o HeyDev">🎤</button>
+            <button id="enviar" class="enviar-btn" title="Enviar mensagem">➤</button>
+        </div>
     </div>
 
-    <div class="compromisso">
-      <h3>Nosso Compromisso</h3>
-      <p>O heyDev foi criado para tornar o conhecimento acessível a todos. Acreditamos que a tecnologia serve para aproximar pessoas e criar oportunidades.</p>
-    </div>
-  </section>
-
-  <!-- Rodapé -->
-  <footer>
-    <div>
-      <h3>heyDev</h3>
-      <p>Seu assistente inteligente para o programa Jovem Programador.</p>
-    </div>
-    <div>
-      <h3>Links Úteis</h3>
-      <ul>
-        <li><a href="https://www.jovemprogramador.com.br/" target="_blank">Site Jovem Programador</a></li>
-        <li><a href="#">Sobre o Programa</a></li>
-      </ul>
-    </div>
-    <div>
-      <h3>Contato</h3>
-      <p>Entre em contato com a equipe heyDev.</p>
-    </div>
-    <p class="copyright">© 2025 heyDev — Criado com 💜 para o programa Jovem Programador.</p>
-  </footer>
-
-  <!-- Chatbot flutuante -->
-  <button id="chatBtn" class="chat-btn" aria-label="Abrir chat" title="Abrir assistente">🤖</button>
-
-  <div id="chatBox" class="chat-box" style="display: none;" role="dialog" aria-modal="true">
-    <div class="chat-header">
-      <div class="header-left">
-        <img src="/static/robot.jpeg" class="bot-avatar" alt="Avatar do assistente virtual" />
-        <h3>HeyDev!</h3>
-      </div>
-      <div class="header-buttons">
-        <button id="botaoSom" aria-label="Ativar/Desativar som" title="Ativar/Desativar som">🔊</button>
-        <button id="closeBtn" class="close-btn" aria-label="Fechar chat" title="Fechar assistente">✖</button>
-      </div>
-    </div>
-    <div id="mensagens" class="chat-body" aria-live="polite" aria-label="Mensagens do chat" tabindex="0"></div>
-    <div class="chat-footer">
-      <input id="inputMsg" type="text" placeholder="Digite sua pergunta..." aria-label="Campo para digitar a mensagem" />
-      <button id="microfone" class="enviar-btn" aria-label="Falar mensagem" title="Falar mensagem">🎤</button>
-      <button id="enviar" class="enviar-btn" aria-label="Enviar mensagem" title="Enviar mensagem">➤</button>
-    </div>
-  </div>
-
-  <script src="/static/script.js"></script>
 </body>
 </html>
